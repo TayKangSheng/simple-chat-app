@@ -1,4 +1,4 @@
-/* globals $ io */
+/* globals $ io $ vue */
 $(function () {
   'use strict'
   // connect the socket.io client to our webserver (assuming it's running on the same port)
