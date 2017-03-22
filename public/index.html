@@ -23,12 +23,16 @@
       <panel
           v-bind:appconfig="appconfig">
       </panel>
+      <app-footer>
+        &copy; <a href="https://github.com/TayKangSheng">Tay Kang Sheng</a> | <a href="https://github.com/TayKangSheng/simple-chat-app">Github Repository</a>
+        <div style="float:right">
+          Built with <a href="https://vuejs.org">VueJS</a> | <a href="https://socket.io">socket.io</a>
+        </div>
+      </app-footer>
     </div>
 
     <!-- Socket.io -->
     <script src="//cdn.socket.io/socket.io-1.4.5.js"></script>
-    <!-- JQuery -->
-    <script src="//code.jquery.com/jquery-1.11.1.js"></script>
     <!-- my vue javascript file -->
     <script src="js/my-app.js" charset="utf-8"></script>
   </body>

@@ -3,7 +3,7 @@ var appconfig = {
   socket: io(window.location.host),
   username: '',
   socketstatus: false,
-  apptitle: 'My not so simple chat',
+  apptitle: 'My not so simple Vue chat',
   connected: '',
   messages: []
 }
@@ -27,6 +27,12 @@ Vue.component('app-header', {
       }
     }
   }
+})
+
+Vue.component('app-footer', {
+  template: `
+  <footer><slot></slot></footer>
+  `
 })
 
 Vue.component('join-message-form', {
